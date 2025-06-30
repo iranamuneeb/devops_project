@@ -1,3 +1,17 @@
+# Core application dependencies
 Flask>=2.2.3
+
+# Testing dependencies
 pytest
 pytest-flask
+pytest-cov
+coverage
+
+# Code quality and security
+flake8
+black
+bandit
+safety
+
+# Production dependencies
+gunicorn
